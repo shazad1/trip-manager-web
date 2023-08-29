@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.entry-container {
+  display: flex;
+  background-image: url("./assets/background.png");
+  flex-flow: column nowrap;
+  border: '1px solid red';
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
